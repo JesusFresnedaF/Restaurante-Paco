@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" type="text/css" href="estilos.css" title="style" />
+    <title>Restaurante Paco</title>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="favicon.png">
+</head>
+<!-- barra horizontal -->
+<body>
+    <header class="container">
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="reserva.html">Reservas</a>
+                </li>
+                <li>
+                    <a href="menu.html">Menus</a>
+                </li>
+                <li>
+                    <a href="#localizaciones">Localizaciones</a>
+                    <ul>
+                        <li><a href="#">Calle restaurante #1</a></li>
+                        <li><a href="#">Calle restaurante #2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#contacto">Contactanos</a>
+                    <ul>
+                        <li><a href="#">Telf: 000 000 000</a></li>
+                        <li><a href="#">Mail: restaurantepaco@paco.com</a></li>
+                    </ul>
+                </li>
+                <li class="icono">
+                    <a href="login.html"><img src="usuario.png" class="icono_user"></img></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- barra lateral -->
+    <input type="checkbox" id="toggle-menu">
+    <label for="toggle-menu">Mostrar menú</label>
+    <nav class="sidebar">
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="reserva.html">Reservas</a>
+            </li>
+            <li>
+                <a href="menu.html">Menus</a>
+            </li>
+            <li>
+                <a href="#localizaciones">Localizaciones</a>
+                <ul>
+                    <li><a href="#">Calle restaurante #1</a></li>
+                    <li><a href="#">Calle restaurante #2</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#contacto">Contactanos</a>
+                <ul>
+                    <li><a href="#">Telf: 000 000 000</a></li>
+                    <li><a href="#">Mail: restaurantepaco@paco.com</a></li>
+                </ul>
+            </li>
+            <li class="icono">
+                <a href="login.html"><img src="usuario.png" class="icono_user"></img></a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="col-2 col-s-5">
+        <p>
+        <h1>Sobre nosotros</h1>
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget urna vitae dolor tempor congue sed vitae
+            orci. Vivamus sed dignissim neque. Nunc urna diam, elementum eget lectus imperdiet, elementum porttitor
+            nisl. Donec ac imperdiet purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non ante
+            gravida, tempor massa in, commodo lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia curae; Aliquam auctor tortor nec maximus auctor. Curabitur in eros nunc. Morbi at felis ut
+            tortor bibendum blandit. Integer quis velit euismod, volutpat nulla ut, viverra eros. Ut commodo pretium
+            odio eu suscipit.
+        </p>
+    </section>
+    <!-- carrusel de imagenes -->
+    <aside>
+        <div id="carrusel-contenido" class="col-3 col-s-6">
+            <div id="carrusel-caja">
+                <div class="carrusel-elemento">
+                    <p class="pie"><img class="imagenes" src="menu/entrante.jpg">Entrantes</p>
+                </div>
+                <div class="carrusel-elemento">
+                    <p class="pie"><img class="imagenes" src="menu/primer.jpeg">Primer plato</p>
+                </div>
+                <div class="carrusel-elemento">
+                    <p class="pie"><img class="imagenes" src="menu/postres.jpeg">Postres</p>
+                </div>
+            </div>
+        </div>
+    </aside>
+</body>
+
+</html>

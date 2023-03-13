@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" type="text/css" href="estilos.css" title="style" />
+    <title>Register</title>
+    <link rel="icon" href="favicon.png">
+</head>
+<!-- barra horizontal -->
+<body>
+    <header class="container">
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="reserva.html">Reservas</a>
+                </li>
+                <li>
+                    <a href="menu.html">Menus</a>
+                </li>
+                <li>
+                    <a href="#localizaciones">Localizaciones</a>
+                    <ul>
+                        <li><a href="#">Calle restaurante #1</a></li>
+                        <li><a href="#">Calle restaurante #2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#contacto">Contactanos</a>
+                    <ul>
+                        <li><a href="#">Telf: 000 000 000</a></li>
+                        <li><a href="#">Mail: restaurantepaco@paco.com</a></li>
+                    </ul>
+                </li>
+                <li class="icono">
+                    <a href="login.html"><img src="usuario.png" class="icono_user"></img></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- barra lateral -->
+    <input type="checkbox" id="toggle-menu">
+    <label for="toggle-menu">Mostrar menú</label>
+    <nav class="sidebar">
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="reserva.html">Reservas</a>
+            </li>
+            <li>
+                <a href="menu.html">Menus</a>
+            </li>
+            <li>
+                <a href="#localizaciones">Localizaciones</a>
+                <ul>
+                    <li><a href="#">Calle restaurante #1</a></li>
+                    <li><a href="#">Calle restaurante #2</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#contacto">Contactanos</a>
+                <ul>
+                    <li><a href="#">Telf: 000 000 000</a></li>
+                    <li><a href="#">Mail: restaurantepaco@paco.com</a></li>
+                </ul>
+            </li>
+            <li class="icono">
+                <a href="login.html"><img src="usuario.png" class="icono_user"></img></a>
+            </li>
+        </ul>
+    </nav>
+
+<body>
+    <from action="" method="post">
+        <div class="container">
+            <label for="fname">Usuario</label>
+            <input type="text" id="fname" name="fname" placeholder="Usuario...">
+            <div>
+                <label for="mail">Correo electrónico</label>
+                <input type="email" id="mail" name=" mail" placeholder="ejemplo@ejemplo.com">
+            </div>
+            <div>
+                <label for="lname">Contraseña</label>
+                <div>
+                    <input type="password" id="password" name="password" placeholder="Contraseña..." required>
+                </div>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="acepto" name="acepto">
+                <label for="acepto">Acepto recibir publicidad al correo electrónico.</label>
+            </div>
+            <input type="reset" value="Reiniciar">
+            <input type="submit" value="Enviar">
+            <a href="index.html"></a>
+        </div>
+</body>
+
+</html>
