@@ -352,42 +352,11 @@ body {
 		margin-left: 30%;
 	}
 
-	/* galeria imagenes carrusel */
-	#carrusel-caja {
-		-moz-animation: automatizacion 15s infinite linear;
-		-o-animation: automatizacion 15s infinite linear;
-		-webkit-animation: automatizacion 15s infinite linear;
-		animation: automatizacion 15s infinite linear;
-		-webkit-transition: all 0.75s ease;
-		-moz-transition: all 0.75s ease;
-		-ms-transition: all 0.75s ease;
-		-o-transition: all 0.75s ease;
-		transition: all 0.75s ease;
-		height: 500px;
-		width: 300%;
-	}
-
 	#carrusel-contenido {
-		margin-top: 0;
-		margin-left: 35%;
-		width: 70%;
-		overflow: hidden;
-		text-align: left;
+		display:flex;
+		flex-direction: column;
 	}
 
-	.imagenes {
-		border: none;
-		height: 500px;
-		width: 100%;
-		box-shadow: 0 0 20px #ddd;
-	}
-
-	.carrusel-elemento {
-		border: 1px solid black;
-		background-color: white;
-		float: left;
-		width: 33.333%;
-	}
 
 	/* LOGIN */
 	div.container {
