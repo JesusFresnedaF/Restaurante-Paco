@@ -33,5 +33,5 @@ En este archivo css añado todos los estilos necesarios para los archivos html.
 
 Varios ejemplos de lo que los elementos a los que dan estilo son: 
 - Añado una nueva fuente que tengo guardada en una carpeta dentro del proyecto.
-- Creo dos media queries (min-width: 600px y max-widt: 600px) donde configuro el tamaño de las columnas del grid que utilizo en los elementos del trabajo
+- Creo dos media queries (min-width: 600px y max-width: 600px) donde configuro el tamaño de las columnas del grid que utilizo en los elementos del trabajo
 - Le doy estilo a las dos galerias de imagenes y más cosas que se ven reflejadas en la página web.
